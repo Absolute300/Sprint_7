@@ -5,3 +5,5 @@ class Urls:
     URL_COURIER_DELETE = f'{MAIN_URL}/api/v1/courier/{{courier_id}}'
     URL_ORDERS_CREATE = f'{MAIN_URL}/api/v1/orders'
     URL_ORDERS_GET_LIST = f'{MAIN_URL}/api/v1/orders'
+
+    

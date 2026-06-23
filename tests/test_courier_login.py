@@ -47,3 +47,5 @@ class TestLoginCourier:
 
         assert response.status_code == 404, f"Expected status code 404, but got {response.status_code}"
         assert response.json()['message'] == 'Учетная запись не найдена', f"Expected 'Учетная запись не найдена', but got '{response.json()['message']}'"
+
+        

@@ -11,3 +11,5 @@ class TestOrderList:
 
         assert type(response.json()['orders']) == list, f"Expected type list, but got {type(response.json()['orders'])}"
         assert "orders" in response.text, f"Response does not contain 'orders'. Response: {response.text}"
+
+        

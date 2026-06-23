@@ -20,3 +20,5 @@ class CourierMethods:
     def delete_courier(courier_id):
         url = Urls.URL_COURIER_DELETE.format(courier_id=courier_id)
         return requests.delete(url=url)
+    
+    
