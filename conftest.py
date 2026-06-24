@@ -16,3 +16,5 @@ def courier():
 
     if courier_id is not None:
         CourierMethods.delete_courier(courier_id)
+
+        

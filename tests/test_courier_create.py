@@ -47,4 +47,6 @@ class TestCreateCourier:
         response = CourierMethods.create_courier(body)
 
         assert response.status_code == 400, f"Expected status code 400, but got {response.status_code}"
-        assert response.json()['message'] == 'Недостаточно данных для создания учетной записи', f"Expected 'Недостаточно данных для создания учетной записи', but got '{response.json()['message']}'"
+        assert response.json()['message'] == 'Недостаточно данных для создания учетной записи', f"Expected 'Недостаточно да0нных для создания учетной записи', but got '{response.json()['message']}'"
+
+        
